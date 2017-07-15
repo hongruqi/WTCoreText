@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTCoreText_Example' do
+  pod 'WTCoreText', :path => '../'
+
+  target 'WTCoreText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
