@@ -24,6 +24,10 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7A81756BF69378434589F95C /* Pods_WTCoreText_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185C9BA116D1B1DE4B82EBB0 /* Pods_WTCoreText_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8C4B31051F1F81C3006562D3 /* WTTestCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B31041F1F81C3006562D3 /* WTTestCoreTextView.m */; };
+		8CE3C32B1F2625DC00764EC1 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CE3C32A1F2625DC00764EC1 /* content.json */; };
+		8CE3C32E1F26265E00764EC1 /* coretext-image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE3C32C1F26265E00764EC1 /* coretext-image-1.jpg */; };
+		8CE3C32F1F26265E00764EC1 /* coretext-image-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE3C32D1F26265E00764EC1 /* coretext-image-2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +65,17 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83D3B0FEACA0B36D4D5919FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83D3B0FEACA0B36D4D5919FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C4B31031F1F81C3006562D3 /* WTTestCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTTestCoreTextView.h; sourceTree = "<group>"; };
+		8C4B31041F1F81C3006562D3 /* WTTestCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTTestCoreTextView.m; sourceTree = "<group>"; };
+		8CE3C32A1F2625DC00764EC1 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = content.json; path = WTCoreText/content.json; sourceTree = SOURCE_ROOT; };
+		8CE3C32C1F26265E00764EC1 /* coretext-image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "coretext-image-1.jpg"; path = "WTCoreText/coretext-image-1.jpg"; sourceTree = SOURCE_ROOT; };
+		8CE3C32D1F26265E00764EC1 /* coretext-image-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "coretext-image-2.jpg"; path = "WTCoreText/coretext-image-2.jpg"; sourceTree = SOURCE_ROOT; };
 		9C121BC738FF9D4527C02D7A /* Pods-WTCoreText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTCoreText_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTCoreText_Example/Pods-WTCoreText_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A0CAF97EE2D2A02299EAAAD0 /* Pods-WTCoreText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTCoreText_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTCoreText_Tests/Pods-WTCoreText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFB689455B7E68BF220D0E9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FC7F88E88DB919CC2A6ECD3D /* WTCoreText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WTCoreText.podspec; path = ../WTCoreText.podspec; sourceTree = "<group>"; };
+		DFB689455B7E68BF220D0E9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FC7F88E88DB919CC2A6ECD3D /* WTCoreText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTCoreText.podspec; path = ../WTCoreText.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +160,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				8C4B31031F1F81C3006562D3 /* WTTestCoreTextView.h */,
+				8C4B31041F1F81C3006562D3 /* WTTestCoreTextView.m */,
 			);
 			name = "Example for WTCoreText";
 			path = WTCoreText;
@@ -179,6 +190,9 @@
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8CE3C32C1F26265E00764EC1 /* coretext-image-1.jpg */,
+				8CE3C32D1F26265E00764EC1 /* coretext-image-2.jpg */,
+				8CE3C32A1F2625DC00764EC1 /* content.json */,
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
@@ -250,6 +264,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "lbrsilva-allin";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = BMP99N9345;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,6 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE3C32B1F2625DC00764EC1 /* content.json in Resources */,
+				8CE3C32E1F26265E00764EC1 /* coretext-image-1.jpg in Resources */,
+				8CE3C32F1F26265E00764EC1 /* coretext-image-2.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -385,10 +405,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WTCoreText_Example/Pods-WTCoreText_Example-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-4/iOS/RevealServer.framework",
 				"${BUILT_PRODUCTS_DIR}/WTCoreText/WTCoreText.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WTCoreText.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +428,7 @@
 				6003F59E195388D20070C39A /* WTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8C4B31051F1F81C3006562D3 /* WTTestCoreTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +556,7 @@
 			baseConfigurationReference = 9C121BC738FF9D4527C02D7A /* Pods-WTCoreText_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BMP99N9345;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WTCoreText/WTCoreText-Prefix.pch";
 				INFOPLIST_FILE = "WTCoreText/WTCoreText-Info.plist";
@@ -548,6 +572,7 @@
 			baseConfigurationReference = 43534FD44ED598985C956A84 /* Pods-WTCoreText_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BMP99N9345;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WTCoreText/WTCoreText-Prefix.pch";
 				INFOPLIST_FILE = "WTCoreText/WTCoreText-Info.plist";

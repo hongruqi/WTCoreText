@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'WTCoreText_Example' do
   pod 'WTCoreText', :path => '../'
-
+  pod 'Reveal-SDK', '~> 4', :configurations => ['Debug']
   target 'WTCoreText_Tests' do
     inherit! :search_paths
 
