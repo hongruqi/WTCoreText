@@ -1,0 +1,6 @@
+framework module Pods_WTCoreText_Tests {
+  umbrella header "Pods-WTCoreText_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

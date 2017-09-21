@@ -1,0 +1,6 @@
+framework module WTCoreText {
+  umbrella header "WTCoreText-umbrella.h"
+
+  export *
+  module * { export * }
+}
